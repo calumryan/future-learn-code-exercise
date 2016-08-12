@@ -33,7 +33,7 @@ gulp.task('sass', function() {
         return console.log(err);
       }
     }))
-    .pipe(sourcemaps.write('css/maps'))
+    .pipe(sourcemaps.write('./maps'))
     .pipe(gulp.dest("css"))
     .pipe(browsersync.stream());
 });
