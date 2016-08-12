@@ -16,7 +16,8 @@ gulp.task('serve', ['sass'], function() {
   browsersync.init({
     server: {
       baseDir: "./"
-    }
+    },
+    notify: false
   });
 
   gulp.watch("scss/*.scss", ['sass']);

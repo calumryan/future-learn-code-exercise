@@ -1,0 +1,23 @@
+body {
+  background: $colour-gainsboro-grey;
+}
+
+h1, h2, h3, h4, h5, p, ul, ol {
+  margin-top: 0;
+}
+
+button {
+  background-color: $colour-pink;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+
+  transition: all 0.3s;
+
+  &:hover {
+    border-color: $colour-blue;
+    background-color: $colour-blue;
+    color: #fff;
+  }
+}

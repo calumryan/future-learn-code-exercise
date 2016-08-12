@@ -22,6 +22,11 @@ Run ```bower install``` - This will install all front end dependencies (jQuery).
 jQuery is purely used for speed - as I only have a limited time to develop code for the test - it's been used to allow more work to be completed. Everything could easily be done in vanilla JS, but would take more testing time.
 
 
+### Compiling/Viewing the site
+
+To run the gulp watch task and start the server (which will also autoload the site) run ```gulp```.
+
+This will start the watch tasks to compile the SASS, watch for changes and also start a server at http://localhost:3000/ - which will autoload when changes made as sepcified in the Gulpfile. The browser should open at the right location after the gulp task has run.
 
 ## ToDo List
 
@@ -34,6 +39,8 @@ This is the project plan, as items are completed, I'll check them off and what r
 * Test in required browsers
 * Add JS to make the interactions work
 * Test in required browsers
+* Add brand font from TypeKit (Europe)
+* Add more detailed ARIA roles and 'itemprop' meta data
 * Create front end tests (webDriverJS) to ensure that the JS interactions/element positioning do not been broken by future work
 * Automate task runner to run tests when relevent codebase changed
 * Test in a screenreader to ensure that accessibility isn't hindered with the hidden elements

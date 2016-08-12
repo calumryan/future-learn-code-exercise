@@ -1,0 +1,20 @@
+.site-actions {
+
+  &__avatar {
+    margin-left: 15px;
+  }
+
+  &__usermenu {
+    background: #fff;
+    border: 1px solid $colour-light-grey;
+    width: 200px;
+
+  }
+
+  &__usermenu-item {
+    padding: 15px;
+    &--bordered {
+      border-bottom: 1px solid $colour-light-grey;
+    }
+  }
+}

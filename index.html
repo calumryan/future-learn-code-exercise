@@ -8,11 +8,43 @@
     <title>Future Learn front end code test</title>
 
     <!-- Base CSS file. Compiled scss files. -->
-    <link href="static/css/all.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
 
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <header class="site-header">
+
+      <div class="site-header__logo">
+        FutureLearn Logo
+      </div>
+
+      <nav class="site-header__navigation">
+        <ul>
+          <li><a href="#">Nav item</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-header__actions">
+        <a href="#search">Search</a>
+
+        <div class="">
+          <div class="site-actions__avatar">
+            <button class="js-show-hide" aria-controls="site-actions__usermenu" aria-expanded="false">MB</button>
+            <nav id="site-actions__usermenu" class="site-actions__usermenu">
+              <ul>
+                <li><a href="#">Your courses</a></li>
+                <li><a href="#">Create</a></li>
+                <li><a href="#">Your profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Sign out</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+    </header>
 
 
     <script src="js/libs/jquery/dist/jquery.min.js"></script>

@@ -1,0 +1,24 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.site-header__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.site-header__actions {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.site-actions__usermenu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  right: 0;
+}
+
