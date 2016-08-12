@@ -7,14 +7,20 @@
   &__usermenu {
     background: #fff;
     border: 1px solid $colour-light-grey;
+    padding-bottom: 5px;
     width: 200px;
-
   }
 
   &__usermenu-item {
-    padding: 15px;
+    padding: 10px 15px;
     &--bordered {
       border-bottom: 1px solid $colour-light-grey;
+      padding: 15px;
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: $colour-black;
     }
   }
 }

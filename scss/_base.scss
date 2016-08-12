@@ -6,6 +6,24 @@ h1, h2, h3, h4, h5, p, ul, ol {
   margin-top: 0;
 }
 
+nav {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+a {
+  color: $colour-pink;
+  text-decoration: none;
+  transition: all 0.3s;
+
+  &:hover {
+    color: $colour-blue;
+  }
+}
+
 button {
   background-color: $colour-pink;
   border: 0;
