@@ -1,0 +1,25 @@
+{
+  "name": "mattbee-frontend-exercise",
+  "version": "1.0.0",
+  "description": "Development exercise for Future Learn Position",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattbee/future-learn-code-exercise.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattbee/future-learn-code-exercise/issues"
+  },
+  "homepage": "https://github.com/mattbee/future-learn-code-exercise#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
