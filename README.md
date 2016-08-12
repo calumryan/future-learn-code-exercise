@@ -35,11 +35,11 @@ This is the project plan, as items are completed, I'll check them off and what r
 * ~~Set up initial development environment, gulp server/sass compiling/dependencies etc.~~
 * ~~Create Base HTML to work from~~
 * ~~Create skeleton HTML~~
-* Style HTML to match provided visuals
+* ~~Style HTML to match provided visuals~~
+* ~~Test in required browsers~~
+* ~~Add JS to make the interactions work~~
 * Test in required browsers
-* Add JS to make the interactions work
-* Test in required browsers
-* Add brand font from TypeKit (Europe)
+* Add brand font from TypeKit (Europe) as per pattern portfolio
 * Add more detailed ARIA roles and 'itemprop' meta data
 * Create front end tests (webDriverJS) to ensure that the JS interactions/element positioning do not been broken by future work
 * Automate task runner to run tests when relevent codebase changed

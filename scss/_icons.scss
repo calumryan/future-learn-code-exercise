@@ -1,0 +1,31 @@
+// icons mixin generator:
+@mixin icon($type: create) {
+  background-image: url(../visuals/icon-#{$type}.svg);
+}
+
+
+.icon {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: inline-block;
+  height: 28px;
+  margin-top: -6px;
+  vertical-align: middle;
+  width: 30px;
+}
+
+.icon--create {
+  @include icon(create);
+}
+.icon--your-courses {
+  @include icon(your-courses);
+}
+.icon--your-profile {
+  @include icon(your-profile);
+}
+.icon--settings {
+  @include icon(settings);
+}
+.icon--sign-out {
+  @include icon(sign-out);
+}
