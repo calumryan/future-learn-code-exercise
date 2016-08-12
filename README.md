@@ -28,6 +28,8 @@ To run the gulp watch task and start the server (which will also autoload the si
 
 This will start the watch tasks to compile the SASS, watch for changes and also start a server at http://localhost:3000/ - which will autoload when changes made as sepcified in the Gulpfile. The browser should open at the right location after the gulp task has run.
 
+For simplicity sake and to allow people not able or willing to install node/npm and bower - then you can view the page at the github pages url [https://mattbee.github.io/future-learn-code-exercise/](https://mattbee.github.io/future-learn-code-exercise/)
+
 ## ToDo List
 
 This is the project plan, as items are completed, I'll check them off and what remains is essentially the remaining tasks that I would be completing if I had longer than 2 hours.
