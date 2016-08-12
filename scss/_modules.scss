@@ -9,6 +9,34 @@
     border: 1px solid $colour-light-grey;
     padding-bottom: 5px;
     width: 200px;
+
+    &:before {
+      content: "";
+      display: block;
+      width: 0; 
+      height: 0; 
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid $colour-light-grey;
+      
+
+      position: absolute;
+      top: -9px;
+      right: 13px;
+    }
+    &:after {
+      content: "";
+      display: block;
+      width: 0; 
+      height: 0; 
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid #fff;
+
+      position: absolute;
+      top: -8px;
+      right: 13px;
+    }
   }
 
   &__usermenu-item {
