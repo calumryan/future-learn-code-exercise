@@ -41,6 +41,7 @@ This is the project plan, as items are completed, I'll check them off and what r
 * ~~Test in required browsers~~
 * ~~Add JS to make the interactions work~~
 * Test in required browsers
+* Make it work better in mobile devices (no visuals supplied hence not mobile first development from the start...)
 * Add brand font from TypeKit (Europe) as per pattern portfolio
 * Add more detailed ARIA roles and 'itemprop' meta data
 * Create front end tests (webDriverJS) to ensure that the JS interactions/element positioning do not been broken by future work
